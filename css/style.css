@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Oswald");
+body,
+main, header, footer, nav,
+p, h1, h2, h3, h4, h5, h6,
+div, figure, figcaption, button {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+}
+
+main {
+  padding: 0 32px;
+}
+
+.title {
+  margin-top: 24px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__input {
+  border: 1px solid orange;
+  background-color: transparent;
+  color: #111;
+  outline: none;
+  caret-color: orange;
+  padding-left: 4px;
+  font-size: 18px;
+}
+
+.form__play {
+  background-color: orange;
+  border: none;
+  padding: 12px 18px;
+  color: #eee;
+}
+/*# sourceMappingURL=style.css.map */

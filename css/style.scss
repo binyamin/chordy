@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+@import '_variables.scss';
+@import '_functions.scss';
+@import '_clean.scss';
+
+body {
+    background: color(white);
+    font-family: $ff-s;
+    color: color(black)
+}
+
+main {
+    padding: 0 32px;
+}
+
+.title {
+    margin-top: 24px;
+    font-family: $ff-p;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+
+    &__input {
+        border: 1px solid color(accent);
+        background-color: transparent;
+        color: color(black);
+        outline: none;
+        caret-color: color(accent);
+        padding-left: 4px;
+        font-size: 18px;
+    }
+
+    &__play {
+        background-color: color(accent);
+        border: none;
+        padding: 12px 18px;
+        color: color(white);
+    }
+}
