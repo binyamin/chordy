@@ -7,7 +7,7 @@ Type chords, and watch them sound themselves out
 
 
 ## Development
-Run `npm watch`, then open `index.html` in your browser (I use live-server extension for vs code).
+Run `npm run watch`, then open `index.html` in your browser (I use live-server extension for vs code).
 
 ## Maintenance
 This is primarily a side-project; however, I can certainly take a look at any bugs or feature-requests.
