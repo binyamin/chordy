@@ -4,6 +4,7 @@ Type chords, and watch them sound themselves out
 [![Website](https://img.shields.io/website?down_message=down&label=gh-pages&logo=github&up_message=online&url=https%3A%2F%2Fb3u.github.io%2Fchordy)](https://b3u.github.io/chordy)
 [![Maintenance](https://img.shields.io/maintenance/yes/2020)](#maintenance)
 [![Issues welcome](https://img.shields.io/badge/suggestions-please-blue)](https://github.com/b3u/chordy/issues)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 
 ## Development
