@@ -1,55 +1,78 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Oswald");
-body,
-main, header, footer, nav,
-p, h1, h2, h3, h4, h5, h6,
-div, figure, figcaption, button {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+html {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', Arial, Helvetica, sans-serif;
+  }
+}
+
+a {
+  color: #4F9D69;
 }
 
 body {
-  background: #eee;
-  font-family: "Montserrat", sans-serif;
-  color: #111;
+  color: #121513;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
-  padding: 0 32px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .title {
-  margin-top: 24px;
-  font-family: "Oswald", sans-serif;
-  font-size: 20px;
   text-align: center;
 }
 
 .form {
-  margin-top: 72px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
 .form__input {
-  border: 1px solid orange;
-  background-color: transparent;
-  color: #111;
-  outline: none;
-  caret-color: orange;
-  padding-left: 4px;
-  font-size: 18px;
+  padding: 4px 2px 4px 4px;
+  margin-right: 4px;
 }
 
-.form__play {
-  background-color: orange;
+.form__btn--play {
+  cursor: pointer;
+  background-color: #4F9D69;
   border: none;
-  padding: 12px 18px;
-  color: #eee;
+  color: white;
+  padding: 6px 18px;
+}
+
+.form__btn--play:hover {
+  -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.35);
+          box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.35);
+}
+
+.form__btn--play:focus:active {
+  outline: none;
+}
+
+.form__btn--play:active {
+  outline: none;
+  background-color: rgba(79, 157, 105, 0.9);
+}
+
+.page-footer {
+  text-align: center;
+  padding: 8px 0;
 }
 /*# sourceMappingURL=style.css.map */

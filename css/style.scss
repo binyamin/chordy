@@ -1,45 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+html {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', Arial, Helvetica, sans-serif; }
+}
 
-@import '_variables.scss';
-@import '_functions.scss';
-@import '_clean.scss';
+a {
+    // color: #68D89B;
+    color: #4F9D69;
+}
 
 body {
-    background: color(white);
-    font-family: $ff-s;
-    color: color(black)
+    color: #121513;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 main {
-    padding: 0 32px;
+    flex-grow: 1;
 }
 
 .title {
-    margin-top: 24px;
-    font-family: $ff-p;
-    font-size: 20px;
     text-align: center;
 }
 
 .form {
-    margin-top: 72px;
     display: flex;
     justify-content: center;
+    text-align: center;
+}
 
-    &__input {
-        border: 1px solid color(accent);
-        background-color: transparent;
-        color: color(black);
+.form__input {
+    padding: 4px 2px 4px 4px;
+    margin-right: 4px;
+}
+
+.form__btn--play {
+    cursor: pointer;
+    background-color: #4F9D69;
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    
+    &:hover {
+        box-shadow: 0 1px 3px 1px rgba(0,0,0,0.35);
+    }
+    &:focus:active {
         outline: none;
-        caret-color: color(accent);
-        padding-left: 4px;
-        font-size: 18px;
     }
+    &:active {
+        outline: none;
+        background-color: rgba(79, 157, 105, 0.9) ;
+    }
+}
 
-    &__play {
-        background-color: color(accent);
-        border: none;
-        padding: 12px 18px;
-        color: color(white);
-    }
+.page-footer {
+    text-align: center;
+    padding: 8px 0;
 }
