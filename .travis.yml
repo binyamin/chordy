@@ -1,0 +1,9 @@
+language: node_js
+node_js: 
+  - '10'
+
+addons:
+  browserstack:
+    username: "binyamingreen1"
+    access_key:
+      secure: "jMjxaI41fFtpZE5tuL3hbbcifbo2TcrVbTOtqH1Zjf7vfS5eS/yzPUW9AFmUrXQQw367bXP5xe599TtPeyS8b0yxcTVcrwgMw2Q1nlSQiaBuudhnZayoK9op2yflcmIKD89YY6drFgn/btH9Zt0qZqiwiiexgOUbSVk43owq77+mUh9l99v/s68Ag34Z4PI965LQYxeoXBV8gdHaX5Ta30eRfUjisV9ThiHKRZJkeQJWlBTAcm3PSC+1xWOCN2Sn5TSWYjmzEOFoR9HP41/FUAqlROAdQaBRcoLC/mBcjm+5gFURizBpob+pu6mbSl0ZZTJh+U263IYDTxseIk1b0eF74pqp4A0QaELZDjASWre9AcIMmHF0U74mAkprmv3xCoQZCzGaJz6pBw75yBHKeXE175OzlugLFPWXrMcEARjMRiCBNueswVi2BiGjKulQoiGrpQZEe/KMu7y9d8zYryjW/qslBD5l5ZAvCLQXB3OSRlXMrcA5QQDwcpkfa5e/cneCfIgHqbb1t5/sE+rhlntQ+r2p2BjG9F5fITz9zDbtnLyHWOZjl2NNe8qIKgfLJgi+wkxnKyCHjwuVZUkkdWCAZtlLqHDDxcVEvMGGaPx4edcomU/kjfp7fZODquOXciYeNlkDRG2KQB2xZncH3B2FVyIxedXvi9fIovwYpYQ="
